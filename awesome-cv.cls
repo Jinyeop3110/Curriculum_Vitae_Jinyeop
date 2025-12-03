@@ -157,6 +157,13 @@
   BoldItalicFont=*-BoldItalic,
 ]{Roboto}
 
+% SemiBold font for emphasis
+\newfontfamily\semibold[
+  Path=\@fontdir,
+  UprightFont=*-SemiBold,
+]{Roboto}
+\newcommand*{\textsemibold}[1]{{\semibold #1}}
+
 %\newfontfamily\headerfontlight[
 %  Path=\@fontdir,
 %  UprightFont=*-Thin,

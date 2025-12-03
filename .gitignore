@@ -1,0 +1,13 @@
+# Build directory (auxiliary files)
+build/
+
+# LaTeX auxiliary files (in case they end up in root)
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# macOS
+.DS_Store
